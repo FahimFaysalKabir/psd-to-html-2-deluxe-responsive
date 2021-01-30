@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hotel Deluxe</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/grid.css" media="all">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+</head>
+
+<body>
+  <!-- header section starts here -->
+    <div class="header" id="header">
+      <div class="mid">
+        <div class="nav">
+          <div class="margin">
+        <div class="logo  col span_1_of_2">
+          <a href="#"><img src="images/800.png" alt="logo"></a>
+
+        </div>
+
+
+        <div class="menu col span_1_of_2">
+
+        <ul>
+          <li><a href="#header">HOME </a></li>
+          <li><a href="#package">PACKAGE</a></li>
+          <li><a href="#room">ROOM</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        </div>
+        <!-- mobile menu starts here -->
+          <div class="mobile-menu">
+            <span onclick="openNav()">&#9776;</span>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                <div class="overlay-content">
+
+                  <a onclick="closeNav()"href="#header">HOME</a>
+                  <a onclick="closeNav()"href="#package">PACKAGE</a>
+                  <a onclick="closeNav()"href="#room">ROOM</a>
+                  <a onclick="closeNav()"href="#contact">CONTACT</a>
+
+
+                </div>
+            </div>
+          </div>
+          <!-- mobile menu ends here -->
+        </div>
+        </div>
+      </div>
+    </div>
+  <!-- header section ends here -->
+  <!-- banner section starts here -->
+  <div class="bannner ">
+    <div class="apsa">
+    <div class="banner-content">
+     <h2 class="wow slideInLeft"><span>Hello,</span> You've Reached</h2>
+     <p>.....................................................................................................</p>
+     <h1 class="animate__animated animate__bounce">HOTEL DELUXE</h1>
+     <h5>................................................................................................</h5>
+     <h3 class="wow slideInRight">HOTEL-SPA SALOON-FINE DINING</h3>
+     </div>
+
+     </div>
+  </div>
+  <!-- banner section ends here -->
+  <!-- form section starts here -->
+  <div class="form">
+
+    <div class="col span_1_of_4 div-1">
+      <label for="arrival">Arrival</label>
+      <input name="arrival" type="date">
+    </div>
+
+    <div class="col span_1_of_4 div-2">
+      <label for="Departure">Dep</label>
+      <input name="Departure" type="date">
+    </div>
+
+    <div class="col span_1_of_4 div-3">
+      <label for="room-type">Room</label>
+      <select name="room-type">
+       <option value="volvo">Volvo</option>
+       <option value="saab">Saab</option>
+       <option value="fiat">Fiat</option>
+       <option value="audi">Audi</option>
+      </select>
+    </div>
+
+    <div class="col span_1_of_4 div-4">
+      <input type="submit" value="View Prices">
+    </div>
+
+  </div>
+  <!-- from section ends here -->
+  <!-- package section starts here -->
+  <div class="package js--sticky-menu" id="package">
+    <div class="mid">
+
+      <h1>Book A Package</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta magnam esse accusamus quo nulla, veritatis iure molestias, necessitatibus! Nam optio, earum, vel vitae, inventore commodi nostrum ullam perferendis, at quidem iusto possimus autem voluptas magnam reiciendis libero nulla quis itaque.</p>
+
+        <div class="circle">
+
+
+        <div class="col span_1_of_4">
+          <img src="images/crop-circle.jpg" alt="">
+        </div>
+        <div class="col span_1_of_4">
+          <img src="images/crop-circle.jpg" alt="">
+        </div>
+        <div class="col span_1_of_4">
+          <img src="images/crop-circle.jpg" alt="">
+        </div>
+        <div class="col span_1_of_4">
+          <img src="images/crop-circle.jpg" alt="">
+        </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  <!-- package section ends here -->
+  <div class="room" id="room">
+    <div class="mid">
+        <h1>Our Room Types</h1>
+
+          <div class="col span_1_of_3 main-body ">
+            <div class=" box">
+              <img src="images/room.jpg" alt="">
+            </div>
+            <h2>Standard Double Room</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque lectus vitae dui sollicitudin commodo.</p>
+
+           </div>
+           <!-- 1st div ends -->
+          <div class="col span_1_of_3 main-body ">
+          <div class="box">
+            <img src="images/room.jpg" alt="">
+          </div>
+          <h2>Supperior Double Room</h2>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque lectus vitae dui sollicitudin commodo.</p>
+
+          </div>
+          <!-- 2nd div ends -->
+          <div class="col span_1_of_3 main-body ">
+
+            <div class=" box">
+                 <img src="images/room.jpg" alt="">
+            </div>
+            <h2>Family Room</h2>
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque lectus vitae dui sollicitudin commodo.</p>
+
+
+
+           </div>
+           <!-- 3rd div ends -->
+           <div class="box-row">
+
+           <div class="col span_1_of_3 main-body ">
+             <div class=" box">
+               <img src="images/room.jpg" alt="">
+             </div>
+             <h2>Standard Double Room</h2>
+             <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque lectus vitae dui sollicitudin commodo.</p>
+
+            </div>
+            <!-- 4th div ends -->
+           <div class="col span_1_of_3 main-body ">
+           <div class="box">
+             <img src="images/room.jpg" alt="">
+           </div>
+           <h2>Supperior Double Room</h2>
+           <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque lectus vitae dui sollicitudin commodo.</p>
+
+           </div>
+           <!-- 5th div ends -->
+           <div class="col span_1_of_3 main-body ">
+
+             <div class=" box">
+                  <img src="images/room.jpg" alt="">
+             </div>
+             <h2>Family Room</h2>
+               <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque lectus vitae dui sollicitudin commodo.</p>
+
+
+
+            </div>
+            <!-- 6th div ends -->
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  <!-- room section ends here -->
+  <div class="city">
+    <div class="mid">
+      <div class="left-city span_2_of_3">
+        <h1>143 City  Located Hotels World Wide</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quas.""-John Doe</p>
+      </div>
+      <div class="right-city span_1_of_3">
+        <img src="images/Business-Person.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- city section ends here -->
+  <!-- footer section starts here -->
+
+  </div>
+  <div class="footer" id="contact">
+    <div class="mid">
+      <div class="col span_1_of_4 f1">
+        <h2>ABOUT THIS HOTEL</h2>
+        <p>Suspendisse erat mi, tincidunt sit amet massa quis, commodo fermentum diam. Sed nec dui nec nunc tempor interdum.
+        <span> Ut vulputate augue urna, ut porta dolor imperdiet a. Vestibulum nec leo eu magna aliquam ornare.</span>
+        </p>
+      </div>
+      <div class="col span_1_of_4 f2">
+        <h2>LATEST NEWS</h2>
+        <P>
+
+              <h6>Grand Hotel joins DeluxeHotels</h6>
+              <a href="#">15 AUG</a>
+
+              <h6>Happy Christmas To Everyone</h6>
+              <a href="#">15 AUG</a>
+
+              <h6>Best Places To Visit 2014</h6>
+              <a href="#">15 AUG</a>
+
+              <h6>Various Offers</h6>
+              <a href="#">15 AUG</a>
+        </P>
+      </div>
+      <div class="col span_1_of_4 f3">
+        <h2>JOIN DELUXEHOTELS</h2>
+        <p>
+        Cum sociis natoque penatibus et magnis dis parturient montes,         nascetur ridiculus mus. Phasellus vestibulum blandit <egestas></egestas>.   <Na></Na>m   id lectus vel orci luctus consectetur eget <id></id> <eli></eli>t. In <tor></tor>tor   odio, pellentesque eu <ar></ar>cu sit amet,   lacinia euismod   nisi.   Aliquam sodales <tristiq></tristiq>ue mauris ac <f></f>ermentum. Donec <vel></vel> varius   ipsum. Pellentesque vitae mollis massa.
+
+        There is no costs or whatsoever so sign up today!</p>
+        <a href="#">READ MORE</a>
+      </div>
+      <div class="col span_1_of_4 f4">
+        <h2>MEMBERS AREA</h2>
+        <div class="col span_1_of_2">
+        <label for="">Username</label>
+        </div>
+        <div class="col span_1_of_2">
+        <input type="text">
+        </div>
+        <div class="col span_1_of_2">
+        <label for="">Password</label>
+        </div>
+        <div class="col span_1_of_2">
+        <input type="text">
+        <a href="#">LOGIN</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/selectivizr-min.js"></script>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>

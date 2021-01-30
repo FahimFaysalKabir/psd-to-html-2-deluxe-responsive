@@ -1,0 +1,483 @@
+@font-face {
+  font-family:droid-bold;
+  src: url(fonts/DroidSans-Bold.ttf);
+}
+@font-face {
+  font-family:Quicksand;
+  src: url(fonts/Quicksand-Regular.otf);
+}
+@font-face {
+  font-family:Quicksand-bold;
+  src: url(fonts/Quicksand-Bold.otf);
+}
+@font-face {
+  font-family:Quicksand-light;
+  src: url(fonts/Quicksand-Light.otf);
+}
+@font-face{
+  src:url(fonts/ARDECODE.ttf);
+  font-family:pechano;
+}
+html{
+
+  scroll-behavior:smooth;
+  font-size:62.5%;
+}
+.sticky{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+
+  background:rgba(42,46,51,0.9);
+
+
+  overflow:hidden;
+  z-index:999;
+  }
+  .sticky .margin{
+  width:80%;
+  margin: auto;
+}
+
+.mid{
+  margin: auto;
+  width:80%;
+  max-width:120rem;
+}
+
+
+
+/* header section starts here */
+.header{
+  background-color:#2a2e33;
+}
+
+.header .logo img{
+  margin-top:2.8rem;
+}
+
+.header .menu ul{
+  text-align:right;
+}
+.header::after{
+  content:'';
+  display: block;
+  clear: both;
+}
+.header .menu ul li{
+  display: inline-block;
+}
+.header .col {
+
+	margin:0%;
+}
+.header ul li a{
+  color:#fff;
+  font-family:droid-bold;
+  font-size:1.2rem;
+  padding: 3.2rem 1rem;
+  display: block;
+  border-top:0.3rem solid transparent;
+}
+.header ul li:hover a{
+  background-color:#1e2329;
+  border-top:0.3rem solid #ffd700;
+}
+/* header section ends here */
+/* banner section starts here */
+.bannner{
+  height:45rem;
+  overflow: hidden;
+  background-image: url(images/banner.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+
+
+}
+.apsa{
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.6);
+}
+.banner-content{
+  text-align:center;
+  color:#fff;
+  font-family:Quicksand;
+  margin-top:6rem;
+}
+.banner-content span{
+font-family:Quicksand-bold;
+font-weight:bold;
+font-size:2.6rem;
+}
+.banner-content h1{
+ font-family:droid-bold;
+ font-size:5rem;
+}
+.banner-content h2{
+  font-size:2.7rem;
+}
+.banner-content h3{
+  font-size:2.7rem;
+  overflow: hidden;
+  margin-top:2.1rem;
+}
+.banner-content h5{
+
+  margin-top:-2.3rem;
+}
+.banner-content p{
+  margin-top:1rem;
+}
+/* banner section ends here */
+/* form section starts here */
+
+.form label{
+  color:#fad300;
+  font-family:Quicksand-light;,
+
+  padding:10px 0px;
+  font-size:1.6rem;
+}
+
+
+.form::after{
+  content:'';
+  clear: both;
+  display: block;
+}
+.form{
+  width:60%;
+  padding:4rem;
+  background-color:#2a2e33;
+  box-shadow: 0 0.7rem 1.1rem #000;
+  margin:auto;
+  position: relative;
+  top:-6.4rem;
+  z-index:3;
+
+}
+
+.form input[type="date"]{
+  width:100%;
+  height:38px;
+  border-radius:1rem;
+
+  border:0.1rem solid #2a2e33;
+  box-sizing:border-box;
+}
+.form  select {
+  width:100%;
+  height:38px;
+  border-radius:1rem;
+  border:0.1rem solid #2a2e33;
+
+  box-sizing:border-box;
+}
+.form input[type="submit"]{
+  width:100%;
+  height:38px;
+  margin-top:1.8rem;
+  border-radius:1rem;
+
+  background-color:#fad300;
+  border:0.1rem solid transparent;
+  font-family:droid-bold;
+  cursor: pointer;
+  box-sizing:border-box;
+}
+/* form section ends here */
+/* package section starts here */
+.package{
+  text-align:center;
+  border-bottom:0.2rem solid #b4b5b7;
+  margin-top:-15rem;
+  z-index:2;
+  background-image: url(images/book-bg.png);
+  padding:28rem 0rem;
+
+
+
+
+}
+
+.package h1{
+  margin-top:-10.8rem;
+  font-family:pechano;
+  font-size:5.4rem;
+  font-weight:normal;
+}
+.package p{
+font-family:Quicksand;
+font-size:1.4rem;
+}
+.circle{
+
+
+  text-align: center;
+  width:52%;
+  margin: auto;
+  margin-top:5.0rem;
+}
+
+
+.circle img{
+  width:100%;
+  height:auto;
+
+
+
+}
+
+/* package section ends here */
+/* room sectio */
+
+.room{
+  padding:7rem 0rem;
+  text-align:center;
+  background-color: #fff;
+  height:700px;
+}
+
+.room h1{
+  font-family:pechano;
+  font-size:5rem;
+  font-weight:normal;
+  color:#3f4246;
+
+}
+
+.room .box img{
+  width:60%;
+  height:auto;
+  background-color:#2a2e33;
+
+}
+.main-body{
+
+  text-align: center;
+}
+
+
+
+.main-body h2{
+  font-size:2.0rem;
+  font-family:Quicksand;
+  font-weight:normal;
+  color:#5d6062;
+  margin-top:0.5rem;
+}
+.main-body p{
+  font-size:1.2rem;
+  font-family:Quicksand;
+  color:#a9aaab;
+  width:70%;
+  text-align: center;
+  margin: auto;
+}
+
+.box-row{
+  margin-top:321px;
+}
+
+
+/* room section ends here */
+/* city section starts here */
+.city{
+  padding:8.0rem 0rem;
+  background-color:#e7cb2c;
+  margin-top:-7rem;
+  position: relative;
+
+}
+
+.city .left-city h1{
+  font-family:Quicksand;
+  font-size:4rem;
+  color:#fff;
+  margin-top:-4.7rem;
+  margin-left:6rem;
+  font-weight:normal;
+}
+.city .left-city p{
+  font-family:Quicksand;
+  font-size:1.4rem;
+  margin-left:6.0rem;
+  color:#fff;
+  font-weight:normal;
+}
+
+.city .right-city img{
+position:absolute;
+right:0rem;
+bottom:-0.8rem;
+
+
+}
+
+/* footer section starts here */
+.footer{
+  padding:100px 0px;
+  background-color:#333333;
+}
+.footer::after{
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.f1 h2{
+  margin-top:-5.6rem;
+  font-family:droid-bold;
+  font-weight:normal;
+  font-size:1.5rem;
+  color: #b6b6b6;
+}
+.f1 p{
+
+  font-family:Quicksand;
+
+  font-size:1.2rem;
+  color:#a0a0a0;
+}
+.f1 p span{
+  display: block;
+  margin-top:1.5rem;
+}
+
+.f2 h2{
+    margin-top:-5.6rem;
+    font-family:droid-bold;
+    font-weight:normal;
+    font-size:1.5rem;
+    color: #b6b6b6;
+}
+.f2 h6{
+    font-family:Quicksand;
+    font-weight:normal;
+    font-size:1rem;
+    color:#a0a0a0;
+}
+.f2 a{
+    font-family:Quicksand-light;
+
+    font-size:1rem;
+    color:#e7cb2c;
+}
+
+.f3 h2{
+  margin-top:-5.6rem;
+  font-family:droid-bold;
+  font-weight:normal;
+  font-size:1.5rem;
+  color: #b6b6b6;
+}
+.f3 p{
+  font-family:Quicksand;
+
+  font-size:1.2rem;
+  color:#a0a0a0;
+}
+.f3 a{
+  display: block;
+  margin-top:1rem;
+  width:26%;
+  padding:0.5rem 1rem;
+  text-align:center;
+
+  background-color: #e7cb2c;
+  color:#000;
+  font-family:droid-bold;
+  font-size:1rem;
+  border-radius:0.5rem;
+}
+
+.f4 h2{
+  margin-top:-5.6rem;
+  font-family:droid-bold;
+  font-weight:normal;
+  font-size:1.5rem;
+  color: #b6b6b6;
+}
+.f4 label{
+  font-family:Quicksand;
+
+  font-size:1.3rem;
+  color:#a0a0a0;
+}
+.f4 input[type="text"]{
+  background-color:#333333;
+  border:0.2rem solid #2a2a2a;
+  border-radius:0.5rem;
+  margin-top:0.5rem;
+}
+.f4 a{
+  display: block;
+  margin-top:1rem;
+  width:30%;
+  padding:0.5rem 1rem;
+  text-align:center;
+
+  background-color: #e7cb2c;
+  color:#000;
+  font-family:droid-bold;
+  font-size:1rem;
+  border-radius:0.5rem;
+}
+/* mobile menu starts here */
+.mobile-menu span{
+  color: #fff;
+  font-size:2rem;
+  float:right;
+  margin-top:2.5rem;
+  display:none;
+}
+.sticky .mobile-menu span{
+  margin-top:22px;
+}
+.mobile-menu span:hover{
+  cursor:pointer;
+}
+.overlay{
+  width:0;
+  height:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color:rgba(0,0,0,0.9);
+  z-index:5;
+  overflow-x:hidden;
+  transition:.5s;
+}
+.overlay-content{
+  position: relative;
+  top:20%;
+  width:100%;
+
+}
+.overlay .overlay-content a{
+  text-decoration: none;
+  display: block;
+  font-size:3rem;
+  text-transform: uppercase;
+  font-size:20px;
+  letter-spacing:3px;
+  text-align:center;
+
+  color: #999;
+  padding:1rem 0;
+}
+.overlay .overlay-content a:hover{
+  color:#fff;
+}
+.closebtn{
+  position:absolute;
+  top:2rem;
+  right:4.5rem;
+  font-size:5rem;
+  color:#fff;
+}
+/* mobile menu ends here */
